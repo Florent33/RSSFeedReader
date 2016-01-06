@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FeedTableViewController: UIViewController {
+class FeedTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,14 @@ class FeedTableViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 0
+    }
 
+    override func tableView(tableView: UITableView, numberOfRowsInSection sections: Int) -> Int {
+        return 0
+    }
+    
     /*
     // MARK: - Navigation
 

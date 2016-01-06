@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B48B0CA11C3D53CA00908CD6 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48B0CA01C3D53CA00908CD6 /* FeedTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B48B0CA31C3D56A700908CD6 /* Helper in Resources */ = {isa = PBXBuildFile; fileRef = B48B0CA21C3D56A700908CD6 /* Helper */; settings = {ASSET_TAGS = (); }; };
 		B4DC54741C3D502800BA0977 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DC54731C3D502800BA0977 /* AppDelegate.swift */; };
 		B4DC54791C3D502800BA0977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DC54771C3D502800BA0977 /* Main.storyboard */; };
 		B4DC547B1C3D502800BA0977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DC547A1C3D502800BA0977 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		B48B0CA01C3D53CA00908CD6 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		B48B0CA21C3D56A700908CD6 /* Helper */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Helper; sourceTree = "<group>"; };
 		B4DC54701C3D502800BA0977 /* RSSFeedReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSFeedReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DC54731C3D502800BA0977 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4DC54781C3D502800BA0977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		B4DC54721C3D502800BA0977 /* RSSFeedReader */ = {
 			isa = PBXGroup;
 			children = (
+				B48B0CA21C3D56A700908CD6 /* Helper */,
 				B4DC54731C3D502800BA0977 /* AppDelegate.swift */,
 				B4DC54771C3D502800BA0977 /* Main.storyboard */,
 				B4DC547A1C3D502800BA0977 /* Assets.xcassets */,
@@ -233,6 +236,7 @@
 			files = (
 				B4DC547E1C3D502800BA0977 /* LaunchScreen.storyboard in Resources */,
 				B4DC547B1C3D502800BA0977 /* Assets.xcassets in Resources */,
+				B48B0CA31C3D56A700908CD6 /* Helper in Resources */,
 				B4DC54791C3D502800BA0977 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
